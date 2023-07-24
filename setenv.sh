@@ -1,5 +1,3 @@
-#IDEA远程管理Tomcat
-#在tomcat bin目录下 新建setenv.sh
 CATALINA_OPTS="${CATALINA_OPTS} -Djava.rmi.server.hostname=<Server IP>"  
 CATALINA_OPTS="${CATALINA_OPTS} -Djavax.management.builder.initial="
 CATALINA_OPTS="${CATALINA_OPTS} -Dcom.sun.management.jmxremote=true"
